@@ -240,7 +240,7 @@ win.title("Base Ball") #setting window title
 win.resizable(width= False, height=False) #setting window size to fixed
 image=PhotoImage(file="croc.png")
 win.iconphoto(True,image) #setting window icon
-lat=PhotoImage(file="cricketp.png")
+lat=PhotoImage(file="cricket.png")
 canvas=Canvas(win,width=400,height=400) #creating canvas
 canvas.place(relwidth=1,relheight=1)
 canvas.create_image(200,200,anchor=CENTER,image=lat) #setting bg image
